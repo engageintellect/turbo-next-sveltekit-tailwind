@@ -41,6 +41,43 @@ importers:
       tsconfig: link:../../packages/tsconfig
       typescript: 4.9.5
 
+  apps/init:
+    specifiers:
+      '@babel/core': ^7.0.0
+      '@types/node': ^17.0.12
+      '@types/react': ^18.0.22
+      '@types/react-dom': ^18.0.7
+      autoprefixer: ^10.4.13
+      eslint: 7.32.0
+      eslint-config-custom: workspace:*
+      next: ^13.1.1
+      postcss: ^8.4.21
+      react: 18.2.0
+      react-dom: 18.2.0
+      tailwind-config: workspace:*
+      tailwindcss: ^3.2.4
+      tsconfig: workspace:*
+      typescript: ^4.5.3
+      ui: workspace:*
+    dependencies:
+      next: 13.1.6_pjwopsidmaokadturxaafygjp4
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      ui: link:../../packages/ui
+    devDependencies:
+      '@babel/core': 7.20.12
+      '@types/node': 17.0.45
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      autoprefixer: 10.4.13_postcss@8.4.21
+      eslint: 7.32.0
+      eslint-config-custom: link:../../packages/eslint-config-custom
+      postcss: 8.4.21
+      tailwind-config: link:../../packages/tailwind-config
+      tailwindcss: 3.2.4_postcss@8.4.21
+      tsconfig: link:../../packages/tsconfig
+      typescript: 4.9.5
+
   apps/web:
     specifiers:
       '@babel/core': ^7.0.0
