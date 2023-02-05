@@ -29,7 +29,7 @@ This turborepo has some additional tools already setup for you:
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd next-turbo-tailwind
 pnpm run build
 ```
 
@@ -38,8 +38,8 @@ pnpm run build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
-pnpm i &&  run dev
+cd next-turbo-tailwind
+pnpm i && run dev
 ```
 
 ### Remote Caching
