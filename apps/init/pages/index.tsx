@@ -1,9 +1,9 @@
 import { Button } from "ui";
 
-export default function Web() {
+export default function Docs() {
   return (
     <div>
-      <h1>Init</h1>
+      <div>Init</div>
       <Button label="click me" url="https://google.com" />
     </div>
   );

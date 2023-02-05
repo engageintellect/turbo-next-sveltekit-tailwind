@@ -1,10 +1,12 @@
-import { Button } from "ui";
+import { Button, Contain } from "ui";
 
 export default function Web() {
   return (
     <div>
-      <h1>Web</h1>
-      <Button label="click me" url="https://google.com" />
+      <Contain>
+        <h1>Web</h1>
+        <Button label="click me" url="https://google.com" />
+      </Contain>
     </div>
   );
 }
