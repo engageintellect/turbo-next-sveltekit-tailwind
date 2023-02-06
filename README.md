@@ -1,5 +1,12 @@
 # next-turbo-tailwind
 
+## Quick Start
+```
+git clone https://github.com/engageintellect/turbo-next-sveltekit-tailwind.git
+cd turbo-next-sveltekit-tailwind
+pnpm i && pnpm run dev
+```
+
 ## What's inside?
 
 This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
